@@ -8,7 +8,7 @@ function SearchMovies() {
 	const [keyword, setKeyword] = React.useState('');
 
 	const getData = () => {
-		fetch(`http://www.omdbapi.com/?s=${keyword}&apikey=${apiKey}`)
+		fetch(`http://localhost:3500=${keyword}&apikey=${apiKey}`)
 			.then(res => res.json())
 			.then(data => {
 				if (data.Error) {

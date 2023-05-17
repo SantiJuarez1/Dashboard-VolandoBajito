@@ -1,5 +1,5 @@
 import React from 'react';
-import imagenFondo from '../assets/images/Amsterdam.webp';
+import imagenFondo from '../assets/images/elmonje.jpg';
 
 function LastDestinyInDb(){
     return(
@@ -11,9 +11,9 @@ function LastDestinyInDb(){
                     <div className="text-center">
                         <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 40 +'rem'}} src={imagenFondo} alt=" Amsterdam "/>
                     </div>
-                    <h2>Amsterdam</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur explicabo officia inventore libero veritatis iure voluptate reiciendis a magnam, vitae, aperiam voluptatum non corporis quae dolorem culpa citationem ratione aperiam voluptatum non corporis ratione aperiam voluptatum quae dolorem culpa ratione aperiam voluptatum?</p>
-                    <a className="btn btn-danger" target="_blank" rel="nofollow" href="/">View destiny detail</a>
+                    <h2>Parque Nacional Talampaya - La Rioja</h2>
+                    <p>En la región centro-oeste de la provincia de La Rioja, el área conserva importantes riquezas geológicas y paleontológicas pero también una muestra representativa de la ecorregión del Monte de Sierras y Bolsones con sus plantas y animales.</p>
+                    <a className="btn btn-danger" target="_blank" rel="nofollow" href="/">View product detail</a>
                 </div>
             </div>
         </div>

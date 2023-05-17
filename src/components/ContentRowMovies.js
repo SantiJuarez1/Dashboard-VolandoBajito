@@ -8,7 +8,7 @@ import SmallCard from './SmallCard';
 let totalProducts = {
     title: 'Total Products',
     color: 'primary', 
-    cuantity: 21,
+    cuantity: 19,
     icon: 'fas fa-shopping-cart fa-2x text-gray-300'
 }
 
@@ -17,7 +17,7 @@ let totalProducts = {
 let totalRatings = {
     title:' Total Users', 
     color:'warning', 
-    cuantity: '49',
+    cuantity: '3',
     icon:'fas fa-users fa-2x text-gray-300'
 }
 
@@ -26,7 +26,7 @@ let totalRatings = {
 let totalSales = {
     title:'Total Categories' ,
     color:'secondary',
-    cuantity:'19',
+    cuantity:'3',
     icon:'fas fa-clipboard-list fa-2x text-gray-300'
 }
 

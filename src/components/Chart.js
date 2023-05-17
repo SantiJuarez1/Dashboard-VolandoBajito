@@ -3,99 +3,99 @@ import ChartRow from './ChartRow';
 
 let tableRowsData = [
     {
-        Location: 'Parque Nacional Nahuel Huapi - Rio Negro',
-        Description: 'lorem ipsum',
-        Price:'1200',
+        Name: 'Misiones',
+        Location: 'Misiones, Argentina',
+        Price:'30.000',
     },
     {
-        Location: 'Caminito - La Boca',
-        Description: 'lorem ipsum',
-        Price:'1200',
+        Name: 'Cordoba',
+        Location: 'Cordoba, Argentina',
+        Price:'20.000',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Mendoza',
+        Location: "Mendoza, Argentina",
+        Price:'25.000',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Mar del Plata',
+        Location: "Buenos Aires, Argentina",
+        Price:'18.000',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Bariloche',
+        Location: "Rio Negro, Buenos Aires",
+        Price:'35.000',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Salta',
+        Location: "Salta, Argentina",
+        Price:'29.000',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Jousten Hotel',
+        Location: "Buenos Aires, Argentina",
+        Price:'12.000',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Hotel Salta',
+        Location: "Salta, Argentina",
+        Price:'8.600',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Hotel Mendoza',
+        Location: "Mendoza, Argentina",
+        Price:'9.500',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Edelweiss',
+        Location: "Rio Negro, Argentina",
+        Price:'8.800',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Exe Hotel Cataratas',
+        Location: "Misiones, Argentina",
+        Price:'9.500',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Gran Panamericano',
+        Location: "Buenos Aires, Argentina",
+        Price:'12.000',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Caminito',
+        Location: "Buenos Aires, Argentina",
+        Price:'1.200',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Jardin Japones',
+        Location: "Buenos Aires, Argentina",
+        Price:'1.500',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Aconcagua',
+        Location: "Mendoza, Argentina",
+        Price:'3.500',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Parque Nacional Nahuel Huapi',
+        Location: "Rio Negro, Argentina",
+        Price:'6.800',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Buenos Aires Centro',
+        Location: "Buenos Aires, Argentina",
+        Price:'3.200',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Glaciar Perito Moreno',
+        Location: "Santa Cruz, Argentina",
+        Price:'8.200',
     },
     {
-        Location: 'Jardin Japones - Buenos Aires',
-        Description: "lorem ipsum",
-        Price:'1200',
+        Name: 'Parque Nacional Talampaya',
+        Location: "La Rioja, Argentina",
+        Price:'5.600',
     },
 ]
 
@@ -110,8 +110,8 @@ function Chart (){
                     <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
                         <thead>
                             <tr>
+                                <th>Name</th>
                                 <th>Location</th>
-                                <th>Description</th>
                                 <th>Price</th>
                             </tr>
                         </thead>
