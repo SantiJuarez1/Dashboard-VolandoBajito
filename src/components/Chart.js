@@ -5,7 +5,7 @@ let tableRowsData = [
     {
         Name: 'Misiones',
         Location: 'Misiones, Argentina',
-        Price:'33.000',
+        Price:'30.000',
     },
     {
         Name: 'Cordoba',

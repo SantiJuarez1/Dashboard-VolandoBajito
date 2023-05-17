@@ -58,6 +58,7 @@ function SideBar(){
                         <i className="fas fa-fw fa-table"></i>
                         <span>Tables</span></Link>
                 </li>
+
                 {/*<!-- Divider -->*/}
                 <hr className="sidebar-divider d-none d-md-block"/>
             </ul>
