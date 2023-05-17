@@ -1,5 +1,5 @@
 import React from 'react';
-import imagenFondo from '../assets/images/Amsterdam.webp';
+import imagenFondo from '../assets/images/elmonje.jpg';
 
 function LastDestinyInDb(){
     return(
